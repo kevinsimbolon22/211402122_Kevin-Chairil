@@ -1,0 +1,18 @@
+MariaDB [(none)]> create view 211402122
+    -> INSERT INTO task_id
+    -> VALUES
+    -> 924eaa0e-c8f1-4132-a032-1d98c176a8c3
+    -> f1ee037b-9135-41d2-9757-091391df4fb8
+    -> c96fdbd6-a3a4-42e3-b437-444ffd734a36
+    -> 
+    -> INSERT INTO nama_task
+    -> VALUES
+    -> MariaDB [uas]> SELECT * FROM `nim_211402122`;
++---------+-----------+--------+--------------------+----------+-----------+------------+--------------+-----------+
+| Task Id | Nama Task | Status | Kategori Indikator | Kategori | Indikator | Creator Id | Creator Name | Prioritas |
++---------+-----------+--------+--------------------+----------+-----------+------------+--------------+-----------+
+| NULL    | NULL      | NULL   | NULL               | NULL     | NULL      | NULL       | User B       |      NULL |
+| NULL    | NULL      | NULL   | NULL               | NULL     | NULL      | NULL       | User A       |      NULL |
++---------+-----------+--------+--------------------+----------+-----------+------------+--------------+-----------+
+2 rows in set (0.000 sec)
+
